@@ -17,13 +17,9 @@ TencentQQSDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TencentQQSDK"
+pod "TencentQQSDK", :git=> "https://github.com/keyfun/qq_ios_sdk.git"
 ```
 
 ## Author
 
 kana_app, forever_loss_@hotmail.com
-
-## License
-
-TencentQQSDK is available under the MIT license. See the LICENSE file for more info.
