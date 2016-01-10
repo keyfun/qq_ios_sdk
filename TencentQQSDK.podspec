@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
 
   s.resource = 'Sources/**/*.bundle'
   s.ios.vendored_frameworks = 'Sources/**/*.framework'
-  s.frameworks = 'ImageIO', 'SystemConfiguration', 'CoreText', 'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreTelephony'
-  s.libraries = 'sqlite3'
+  s.frameworks = 'CoreImage', 'Photos', 'AssetsLibrary', 'MapKit', 'CoreLocation', 'MobileCoreServices', 'MediaPlayer', 'CoreFoundation', 'SystemConfiguration', 'CoreText', 'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreTelephony'
+  s.libraries = 'sqlite3', 'z.1.1.3', 'stdc++'
 end
