@@ -8,22 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "TencentQQSDK"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of TencentQQSDK."
+  s.version          = "1.9.5"
+  s.summary          = "TencentQQSDK"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TencentQQSDK"
+  s.homepage         = "https://github.com/keyfun/qq_ios_sdk"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "kana_app" => "forever_loss_@hotmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TencentQQSDK.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/keyfun/qq_ios_sdk.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -34,7 +26,4 @@ Pod::Spec.new do |s|
     'TencentQQSDK' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

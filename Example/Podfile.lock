@@ -1,0 +1,14 @@
+PODS:
+  - TencentQQSDK (0.1.0)
+
+DEPENDENCIES:
+  - TencentQQSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TencentQQSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TencentQQSDK: 0c6a3bb617afcfb7230d0de59eaad7611c6732a2
+
+COCOAPODS: 0.39.0
