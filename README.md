@@ -22,4 +22,4 @@ pod "TencentQQSDK", :git => "https://github.com/keyfun/qq_ios_sdk.git"
 
 ## Author
 
-kana_app, forever_loss_@hotmail.com
+keyfun.hk@gmail.com
