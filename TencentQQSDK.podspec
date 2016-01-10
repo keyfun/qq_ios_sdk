@@ -21,9 +21,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*', 'Sources/QQSDK/TencentOpenAPI.framework/Headers/*.h'
   s.resource_bundles = {
     'TencentQQSDK' => ['Pod/Assets/*.png']
   }
 
+  s.resource = 'Sources/**/*.bundle'
+  s.ios.vendored_frameworks = 'Sources/**/*.framework'
+  s.frameworks = 'ImageIO', 'SystemConfiguration', 'CoreText', 'QuartzCore', 'Security', 'UIKit', 'Foundation', 'CoreGraphics', 'CoreTelephony'
+  s.libraries = 'sqlite3'
 end
